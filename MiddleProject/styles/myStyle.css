@@ -1,0 +1,397 @@
+body {
+    direction: rtl;
+    background-image: url('../images/background1.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    font-size: 100%;
+    background-size: 960px;
+    margin: 3em;
+    font-family: 'Varela Round', sans-serif, Arial;
+}
+
+#container {
+    margin: auto 0;
+    width: 960px;
+}
+
+/*רקע בעמודים פנימיים*/
+
+.bg2 {
+    background-image: url(../images/INBackground1.jpg);
+    background-repeat: no-repeat;
+    width: 960px;
+    background-size: 960px;
+    background-position-x: center;
+}
+
+/*רקע בעמוד פרויקט גמר*/
+
+#bg3 {
+    background-image: url(../images/INBackground2.jpg);
+    background-repeat: no-repeat;
+    height: 2000px;
+    width: 960px;
+    background-size: 960px;
+    background-position-x: center;
+}
+
+
+/*עיצוב דף הבית */
+h1 {
+    font-size: 18px;
+}
+
+#TxtNote {
+    -webkit-transform: rotate(7deg);
+    margin-top: 50px;
+    margin-right: 20px;
+    line-height: 20px;
+}
+/* עיצוב כותרת פנימית תפריט ניווט דף הבית */
+.insideTitle {
+    font-size: 100%;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 50px;
+}
+/*עיצוב תפריט ניווט דף הבית */
+#homepagenav {
+    position: absolute;
+}
+
+#homepage, li {
+    list-style: none;
+}
+
+#homepage {
+    overflow: hidden;
+    padding: 8em;
+    padding-top: 16em;
+    width: 800px;
+    margin-right: 110px;
+}
+
+    #homepage li a {
+        text-decoration: none;
+        color: #000;
+        background: #ffc;
+        display: block;
+        height: 10em;
+        width: 4em;
+        padding: 1em;
+        -moz-box-shadow: 5px 5px 7px rgba(33,33,33,1);
+        -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        -moz-transition: -moz-transform .15s linear;
+        -o-transition: -o-transform .15s linear;
+        -webkit-transition: -webkit-transform .15s linear;
+    }
+
+    #homepage li {
+        margin: 1em;
+        float: left;
+    }
+
+        #homepage li h2 {
+            font-size: 140%;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
+
+        #homepage li p {
+            font-size: 180%;
+        }
+
+        #homepage li a {
+            -webkit-transform: rotate(-6deg);
+            -o-transform: rotate(-6deg);
+            -moz-transform: rotate(-6deg);
+        }
+
+        #homepage li:nth-child(even) a {
+            -o-transform: rotate(4deg);
+            -webkit-transform: rotate(4deg);
+            -moz-transform: rotate(4deg);
+            position: relative;
+            top: 5px;
+            background: #cfc;
+        }
+
+        #homepage li:nth-child(3n) a {
+            -o-transform: rotate(-3deg);
+            -webkit-transform: rotate(-3deg);
+            -moz-transform: rotate(-3deg);
+            position: relative;
+            top: -5px;
+            background: #ccf;
+        }
+
+        #homepage li:nth-child(5n) a {
+            -o-transform: rotate(5deg);
+            -webkit-transform: rotate(5deg);
+            -moz-transform: rotate(5deg);
+            position: relative;
+            top: -10px;
+            background: #ffc;
+        }
+
+        #homepage li a:hover, ul li a:focus {
+            box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+            -moz-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+            -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+            -webkit-transform: scale(1.25);
+            -moz-transform: scale(1.25);
+            -o-transform: scale(1.25);
+            position: relative;
+            z-index: 5;
+        }
+
+ol {
+    text-align: center;
+}
+
+    ol li {
+        display: inline;
+        padding-right: 1em;
+    }
+
+        ol li a {
+            color: #fff;
+        }
+
+#MyPic, #MyNote {
+    background-image: url('../images/Me.png');
+    background-size: 220px;
+    background-repeat: no-repeat;
+    height: 220px;
+    width: 220px;
+    float: left;
+}
+
+#MyNote {
+    background-image: url('../images/Note.png');
+    float: right;
+    margin-right: 362px;
+}
+
+
+/*תפריט ניווט פנימי */
+.navbar .inside-nav, li {
+    list-style: none;
+}
+
+.navbar .inside-nav {
+    overflow: hidden;
+    padding-right: 76px;
+    margin-right: 140px;
+    display: grid;
+}
+
+    .navbar .inside-nav li a {
+        color: #000;
+        background: #ffc;
+        display: block;
+        width: 130px;
+        height: 32px;
+        padding-top: 10px;
+        -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+        -moz-transition: -moz-transform .15s linear;
+        -o-transition: -o-transform .15s linear;
+        -webkit-transition: -webkit-transform .15s linear;
+        text-decoration: none;
+    }
+
+    .navbar .inside-nav li {
+        margin: 1em;
+        float: left;
+    }
+
+        .navbar .inside-nav li p {
+            font-size: 180%;
+        }
+
+        .navbar .inside-nav li h2 {
+            font-size: 20pt;
+            padding-bottom: 10px;
+        }
+
+        .navbar .inside-nav li a {
+            -webkit-transform: rotate(-6deg);
+            -o-transform: rotate(-6deg);
+            -moz-transform: rotate(-6deg);
+            font-weight: normal;
+            text-align: center;
+        }
+
+            .navbar .inside-nav li a:hover, ul li a:focus {
+                box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+                -moz-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+                -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+                -webkit-transform: scale(1.25);
+                -moz-transform: scale(1.25);
+                -o-transform: scale(1.25);
+                position: relative;
+                z-index: 5;
+            }
+
+            .navbar .inside-nav li a.selected {
+                background-color: hotpink;
+            }
+
+
+/*עיצוב נעץ תפריט ניווט דף הבית*/
+
+
+#homepagenav #homepage li a .pin:nth-child(1n) {
+    background-image: -moz-radial-gradient(35px 35px 35deg, circle cover, red 50%, black 100%);
+    background-image: -webkit-radial-gradient(35px 35px, circle cover, red, black);
+    background-image: radial-gradient(red 50%, black 100%);
+}
+
+.pin {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.55);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,.55);
+    box-shadow: 0 3px 6px rgba(0,0,0,.55);
+    margin: 0 auto;
+    margin-top: 2px;
+}
+
+
+/* עיצוב כותרות בעמודים פנימיים*/
+
+section {
+    margin-top: -464px;
+    margin-right: 555px;
+    height: 141px;
+    width: 400px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+    section h2 {
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 22px;
+        font-size: 24px;
+    }
+
+#MarP {
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: -412px;
+    margin-right: 555px;
+    height: 141px;
+    width: 400px;
+    font-size: 20px;
+}
+/* עיצוב  עמוד פרויקט גמר*/
+#TxtF {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#PortretPic {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-position: center;
+    height: auto;
+    display: block;
+    width: 200px;
+       margin-right: 680px;
+}
+
+#PortretPic2 {
+    width: 400px;
+}
+
+#PortretPic:hover {
+    opacity: 0.7;
+}
+
+.modalDialog {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    margin-top: -584px;
+    margin-right: 392px;
+}
+
+
+
+    .modalDialog:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .modalDialog > div {
+        width: 400px;
+        position: relative;
+        margin: 16% auto;
+        padding: 5px 20px 13px 20px;
+        border-radius: 10px;
+        margin-left: inherit;
+        background: #fff;
+        background: -moz-linear-gradient(#fff, #999);
+        background: -webkit-linear-gradient(#fff, #999);
+        background: -o-linear-gradient(#fff, #999);
+    }
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+
+    .close:hover {
+        background: #00d9ff;
+    }
+
+
+/* עיצוב עמוד פרויקט גמר */
+
+
+#FinalPic {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-position: center;
+    margin-top: 13px;
+    margin-top: 13px;
+    height: auto;
+    width: 200px;
+}
+
+#FinalPic2 {
+    width: 400px;
+}
+
+
