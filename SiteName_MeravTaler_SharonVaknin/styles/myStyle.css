@@ -1,0 +1,786 @@
+﻿body {
+    direction: rtl;
+    background-image: url('../images/flatbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    background: rgba(254, 254, 254, 0.3);
+}
+
+.AdoptPage2 h4 {
+    margin-top: 39px;
+    text-align: center;
+    margin-right: 47px;
+    width: 151px;
+}
+
+.marginBottom {
+    margin-bottom: 59px;
+}
+
+.logo {
+    float: right;
+    margin-right: 36px;
+}
+
+.MainNav,
+footer {
+    background-color: #7ebbe6;
+}
+
+    .MainNav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+
+#mainUl {
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 20px;
+}
+
+.MainNav #mainUl li {
+    display: block;
+    position: relative;
+    z-index: 99;
+}
+
+.MainNav li ul {
+    display: none;
+    width: 250px;
+}
+
+.MainNav #mainUl > li {
+    color: black;
+    display: inline-block;
+}
+
+.MainNav #mainUl li:last-child {
+    padding: 0;
+}
+
+.MainNav #mainUl li a {
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+}
+
+.MainNav #mainUl li:hover {
+    background: #F0F0F3;
+}
+
+.MainNav li:hover > ul {
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+.MainNav li:hover li {
+    float: none;
+}
+
+.MainNav li:hover a {
+    background: #EFF0F3;
+}
+
+.MainNav li:hover li a:hover {
+    background: #EFF0F3;
+}
+
+.MainNav #mainUl li ul li a:hover {
+    background: #BED4CA;
+}
+
+.MainNav li ul li {
+    border-top: 0;
+    background: #EFF0F3;
+}
+
+.selected {
+    background: #EFF0F3;
+}
+
+.CursurNotAllowd {
+    cursor: not-allowed;
+}
+/* Displays second level dropdowns to the right of the first level dropdown */
+
+#mainUl ul ul {
+    right: 100%;
+    top: 0;
+}
+/* Simple clearfix */
+
+ul:before,
+ul:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+ul:after {
+    clear: both;
+}
+
+.carousel-caption {
+    margin-bottom: 155px;
+    margin-right: -152px;
+    text-align: right;
+    height: 100px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.carousel-h2 {
+    font-size: 24pt;
+    margin-bottom: 7px;
+    text-align: right;
+    margin-top: -33px;
+}
+
+.carousel-p {
+    font-size: 16pt;
+    margin-top: 26px;
+}
+
+.carousel-indicators .active {
+    background-color: #FDBF5D;
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators li {
+    border: 1px solid #FDBF5D;
+    width: 15px;
+    height: 15px;
+}
+
+.btn-warning {
+    margin-right: 111px;
+}
+
+.btn-warning {
+    color: black;
+}
+
+    .btn-warning:hover {
+        color: black;
+    }
+
+
+.InsideHomePageNav {
+    margin-right: 37px;
+}
+
+    .InsideHomePageNav .InsideLi-HomePageNav {
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin-top: 119px;
+        padding-bottom: 106px;
+        height: 395px;
+        background-position: bottom;
+    }
+
+#middleDog {
+    background-image: url(../images/DogBox2.png);
+    width: 322px;
+    margin-right: 40px;
+}
+
+#leftDog {
+    background-image: url(../images/DogBox1.png);
+    width: 246px;
+}
+
+#rightDog {
+    background-image: url(../images/DogBox3.png);
+    width: 246px;
+}
+
+.InsideBanner {
+    width: 960px;
+    height: 326.79px;
+    background-repeat: no-repeat;
+}
+
+#Banner-Emutz {
+    background-image: url(../images/banner1.png);
+}
+
+#Banner-Emutz2 {
+    background-image: url(../images/banner3.jpg);
+}
+
+#Banner-Emutz3 {
+    background-image: url(../images/banner22.jpg);
+}
+
+#Banner-About {
+    background-image: url(../images/banner5.png);
+}
+
+#Banner-SiteMap {
+    background-image: url(../images/banner6.jpg);
+}
+
+#Banner-contactUs {
+    background-image: url(../images/banner4.png);
+}
+
+#HPh1 {
+    margin: 0;
+}
+
+.rtl .col-xs-4 {
+    width: 70%;
+}
+
+.rtl .col-xs-4 {
+    width: 22%;
+}
+
+.row {
+    margin-right: 31px;
+}
+
+.InsideH1 {
+    text-align: right;
+    color: white;
+    margin-right: 69px;
+    padding: 44px;
+    font-size: 24pt;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+}
+
+.bread-crumb {
+    padding-bottom: 160px;
+}
+
+    .bread-crumb ul li {
+        display: inline-block;
+        padding: 8px 15px;
+    }
+
+        .bread-crumb ul li a {
+            text-decoration: none;
+            color: black;
+            font-family: 'Rubik', sans-serif;
+        }
+
+.padding1 {
+    padding-bottom: 95px;
+}
+
+.padding2 {
+    padding-bottom: 182px;
+}
+
+.HPbubbles {
+    background-image: url(../images/Bubble.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 216px;
+    width: 200px;
+    background-size: contain;
+    margin-right: 58px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14pt;
+    padding-top: 51px;
+    color: black;
+    text-decoration: none;
+}
+
+    .HPbubbles:hover {
+        background-image: url(../images/BubbleHove1.png);
+        color: black;
+    }
+
+.bubbles {
+    background-image: url(../images/Bubble.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 216px;
+    width: 200px;
+    background-size: contain;
+    position: absolute;
+    top: -170px;
+    left: -106px;
+}
+
+#bubbles-left {
+    background-image: url(../images/BubbleLeft.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 216px;
+    width: 200px;
+    background-size: contain;
+    position: absolute;
+    top: -170px;
+    left: 116px;
+}
+
+#InsideBubble-R1 {
+    margin-top: 33px;
+    margin-right: -81px;
+}
+
+.contactUs-Page h2 {
+    text-align: right;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 16pt;
+}
+
+#insideP2 {
+    margin-right: 19px;
+}
+
+.AdoptPics {
+    background-repeat: no-repeat;
+    width: 217px;
+    height: 170px;
+    background-size: 190px;
+    margin-top: 26px;
+}
+
+#AdoptPic1 {
+    background-image: url(../images/AdoptDog.png);
+}
+
+#AdoptPic2 {
+    background-image: url(../images/AdoptDog2.png);
+}
+
+#AdoptPic3 {
+    background-image: url(../images/AdoptDog3.jpg);
+}
+
+#AdoptPic4 {
+    background-image: url(../images/AdoptDog4.png);
+}
+
+#AdoptPic5 {
+    background-image: url(../images/AdoptDog5.png);
+}
+
+#AdoptPic6 {
+    background-image: url(../images/AdoptDog6.png);
+}
+
+#AdoptPic7 {
+    background-image: url(../images/AdoptDog7.png);
+}
+
+#AdoptPic8 {
+    background-image: url(../images/AdoptDog8.png);
+}
+
+#AdoptPic9 {
+    background-image: url(../images/AdoptDog9.png);
+}
+
+#AdoptPic10 {
+    background-image: url(../images/AdoptDog10.png);
+}
+
+#AdoptPic11 {
+    background-image: url(../images/AdoptDog11.png);
+}
+
+#AdoptDog-Page3-1 {
+    background-image: url(../images/AdoptDog-Page3-1.png);
+}
+
+#AdoptDog-Page3-2 {
+    background-image: url(../images/AdoptDog-Page3-2.jpg);
+}
+
+#AdoptDog-Page3-3 {
+    background-image: url(../images/AdoptDog-Page3-3.jpg);
+}
+
+#AdoptDog-Page3-4 {
+    background-image: url(../images/AdoptDog-Page3-4.jpg);
+}
+
+#AdoptDog-Page3-5 {
+    background-image: url(../images/AdoptDog-Page3-5.jpg);
+}
+
+#AdoptDog-Page3-6 {
+    background-image: url(../images/AdoptDog-Page3-6.jpg);
+}
+
+#AdoptDog-Page2-1 {
+    background-image: url(../images/AdoptDog-Page2-1.png);
+}
+
+#AdoptDog-Page2-2 {
+    background-image: url(../images/AdoptDog-Page2-2.jpg);
+}
+
+#AdoptDog-Page2-3 {
+    background-image: url(../images/AdoptDog-Page2-3.jpg);
+}
+
+#AdoptDog-Page2-4 {
+    background-image: url(../images/AdoptDog-Page2-4.jpg);
+}
+
+#AdoptDog-Page2-5 {
+    background-image: url(../images/AdoptDog-Page2-5.jpg);
+}
+
+#AdoptDog-Page2-6 {
+    background-image: url(../images/AdoptDog-Page2-6.jpg);
+}
+
+#AdoptDog-Page2-7 {
+    background-image: url(../images/AdoptDog-Page2-7.jpg);
+}
+
+#ContactPic {
+    background-image: url(../images/Contact.png);
+    position: absolute;
+    right: 592px;
+    bottom: -15px;
+    width: 440px;
+    height: 332px;
+    background-size: 379px;
+}
+
+#AboutPage1 {
+    background-image: url(../images/About-pic2.png);
+}
+
+#AboutPage2 {
+    background-image: url(../images/About-pic3.png);
+}
+
+#AboutPage3 {
+    background-image: url(../images/About-pic4.png);
+}
+
+#AboutPage3 {
+    background-image: url(../images/About-pic5.png);
+}
+
+#AboutPage4 {
+    background-image: url(../images/About-pic6.png);
+}
+
+#AboutPage5 {
+    background-image: url(../images/About-pic4.png);
+}
+
+.rightDogBubble {
+    background-image: url(../images/rightDogBubble.png);
+    margin-top: -200px;
+}
+
+.leftDogBubble {
+    background-image: url(../images/leftDogBubble.png);
+    position: absolute;
+    left: 249px;
+    top: -38px;
+}
+
+.Right-dog-adopt3 {
+    background-image: url(../images/rightDog.png);
+    width: 113px;
+    height: 151px;
+}
+
+.Left-dog-adopt3 {
+    background-image: url(../images/leftDog.png);
+    width: 113px;
+    height: 151px;
+    margin-left: 92px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+h3 {
+    color: #136C39;
+}
+
+p,
+h3 {
+    font-family: 'Rubik', sans-serif;
+}
+
+#h2bubbles {
+    margin-top: 50px;
+}
+
+#h2bubbles2,
+#h2bubbles3 {
+    margin-top: 40px;
+}
+
+#h2bubbles4 {
+    margin-top: 33px;
+}
+
+#h2bubbles5 {
+    margin-top: 33px;
+}
+
+
+p {
+    font-size: 14pt;
+}
+
+footer {
+    height: 50px;
+}
+
+.FooterNav ul li {
+    font-size: 12pt;
+    margin: 20px;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+}
+
+    .FooterNav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+        .FooterNav ul li a:hover,
+        .bread-crumb ul li a:hover {
+            text-decoration: underline;
+        }
+/* Grow Rotate */
+
+.hvr-grow-rotate {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+    .hvr-grow-rotate:hover,
+    .hvr-grow-rotate:focus,
+    .hvr-grow-rotate:active {
+        -webkit-transform: scale(1.1) rotate(4deg);
+        transform: scale(1.1) rotate(4deg);
+    }
+/* Float */
+
+.hvr-float {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+    .hvr-float:hover,
+    .hvr-float:focus,
+    .hvr-float:active {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+    }
+
+form {
+    padding: 26px;
+    width: 800px;
+}
+
+#up {
+    background: url(../images/UpArrow.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    position: fixed;
+    right: 70px;
+    top: -64px;
+    width: 54px;
+    height: 54px;
+    cursor: pointer;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+    #up.scrolled {
+        opacity: 1;
+        top: 700px;
+    }
+
+.SiteMap-Page article {
+    margin-bottom: 40px;
+}
+
+.SiteMap-Page ul li a {
+    font-family: 'Rubik', sans-serif;
+}
+
+.SiteMap-Page h3 {
+    color: black;
+}
+
+.members {
+    margin-right: 283px;
+    margin-bottom: 100px;
+}
+
+.nameMerav {
+    position: absolute;
+    bottom: -53px;
+    right: 224px;
+}
+
+.members {
+    margin-right: 283px;
+    margin-bottom: 100px;
+}
+
+.nameSharon {
+    position: absolute;
+    bottom: -53px;
+    right: 62px;
+}
+
+.nameMerav {
+    position: absolute;
+    bottom: -53px;
+    right: 224px;
+}
+
+#bottom,
+#bottom1 {
+    margin-top: 30px;
+}
+
+#bottom2 {
+    margin-top: 24px;
+}
+
+#bottom3 {
+    margin-top: 23px;
+}
+
+#bottom4,
+#bottom5 {
+    margin-top: 31px;
+}
+
+.marginRight {
+    margin-right: 15px;
+}
+
+.accessibility {
+    position: absolute;
+    left: -99999px;
+    height: 10px;
+    width: 10px;
+}
+
+#skip {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    list-style: outside none;
+}
+
+    #skip li {
+        list-style-type: none;
+    }
+
+    #skip a {
+        position: absolute;
+        left: 233px;
+        top: 30px;
+        z-index: -1;
+    }
+
+        #skip a:focus,
+        #skip a:active {
+            position: relative;
+            left: 0;
+            z-index: 9999;
+            height: auto;
+            margin: 0 auto;
+            padding: 30px 45px;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: -4px !important;
+            font: bold 50px "Arial", "Freesans", sans-serif !important;
+            color: black;
+            background-color: white;
+            border: 2px dotted #ffb4db;
+        }
+
+        #skip a:hover {
+            text-decoration: underline;
+        }
+
+.NavIcon {
+    background-image: url('../images/BulletNav.png');
+    background-repeat: no-repeat;
+    background-position: center 10px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+    .breadcrumb .breadcrumb-item {
+        font-family: 'Rubik', sans-serif;
+    }
+
+        .breadcrumb .breadcrumb-item a {
+            color: black;
+        }
+
+    .breadcrumb > .active {
+        color: #136C39;
+    }
+
+#HIT {
+    background-image: url(../images/LogoHit.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 200px;
+    background-size: 100%;
+    margin-top: 15px;
+}
+
+h4 a {
+    color:black;
+}
+
