@@ -28,7 +28,7 @@
     <script type="text/javascript" src="https://webdesigntutsplus.s3.amazonaws.com/tuts/378_tessa/tessa-lt-dropdowns-21c7868/script.js"></script>
     <script src="jScripts/TopButton.js"></script>
 </head>
-<body class="rtl AdoptPage">
+<body class="rtl AdoptPage" onload="tab_nav()">
     <div id="container">
         <!-- Accecility -->
         <ul id="skip">
@@ -42,39 +42,39 @@
                     <li>
                         <a class="selected" href=javascript:void(0)> לאמץ</a>
                         <ul>
-                            <li class="NavIcon"> <a href=Adopt1.html> מהו אימוץ?</a></li>
-                            <li class="NavIcon"> <a href=Adopt2.html>איזה כלב מתאים לי? </a></li>
-                            <li> <a href=Adopt3.html>מה שחשוב לדעת לפני האימוץ</a> </li>
-                            <li> <a class="CursurNotAllowd" href="javascript:void(0)">ארגונים לאימוץ</a> </li>
+                            <li> <a class="NavIcon" href=Adopt1.html> מהו אימוץ?</a></li>
+                            <li> <a class="NavIcon" href=Adopt2.html>איזה כלב מתאים לי? </a></li>
+                            <li> <a class="NavIcon" href=Adopt3.html>מה שחשוב לדעת לפני האימוץ</a> </li>
+                            <li> <a class="NavIcon CursurNotAllowd" href="javascript:void(0)">ארגונים לאימוץ</a> </li>
                         </ul>
                     </li>
                     <li>
                         <a class="CursurNotAllowd" href=javascript:void(0)> לטפל</a>
                         <ul>
-                            <li> <a class="CursurNotAllowd" href="javascript:void(0)"> טיפול יומיומי </a> </li>
+                            <li> <a class="CursurNotAllowd NavIcon" href="javascript:void(0)"> טיפול יומיומי </a> </li>
                             <li>
-                                <a class="CursurNotAllowd" href="javascript:void(0)">טיפול במעגל החיים   </a>
+                                <a class="CursurNotAllowd NavIcon" href="javascript:void(0)">טיפול במעגל החיים   </a>
                                 <ul>
-                                    <li> <a class="CursurNotAllowd" href="javascript:void(0)">גורים</a></li>
-                                    <li> <a class="CursurNotAllowd" href="javascript:void(0)">מתבגרים </a></li>
-                                    <li> <a class="CursurNotAllowd" href="javascript:void(0)">מבוגרים</a> </li>
+                                    <li> <a class="CursurNotAllowd NavIcon" href="javascript:void(0)">גורים</a></li>
+                                    <li> <a class="CursurNotAllowd NavIcon" href="javascript:void(0)">מתבגרים </a></li>
+                                    <li> <a class="CursurNotAllowd NavIcon" href="javascript:void(0)">מבוגרים</a> </li>
                                 </ul>
                             </li>
                             <li>
-                                <a class="CursurNotAllowd" href="sub1.html">בריאות הכלב  </a>
+                                <a class="CursurNotAllowd NavIcon" href="sub1.html">בריאות הכלב  </a>
                                 <ul>
-                                    <li> <a class="CursurNotAllowd" href="javascript:void(0)">חיסונים</a></li>
-                                    <li> <a class="CursurNotAllowd" href="javascript:void(0)">תזונה </a></li>
-                                    <li> <a class="CursurNotAllowd" href="javascript:void(0)">עשה ואל תעשה</a> </li>
+                                    <li> <a class="CursurNotAllowd NavIcon" href="javascript:void(0)">חיסונים</a></li>
+                                    <li> <a class="CursurNotAllowd NavIcon" href="javascript:void(0)">תזונה </a></li>
+                                    <li> <a class="CursurNotAllowd NavIcon" href="javascript:void(0)">עשה ואל תעשה</a> </li>
                                 </ul>
                         </ul>
                     </li>
                     <li>
-                        <a class="CursurNotAllowd" href=javascript:void(0)> לאלף</a>
+                        <a class="CursurNotAllowd " href=javascript:void(0)> לאלף</a>
                         <ul>
-                            <li> <a class="CursurNotAllowd" href=javascript:void(0)> תרגילים בסייסים</a>
+                            <li> <a class="CursurNotAllowd NavIcon" href=javascript:void(0)> תרגילים בסייסים</a>
                             <li>
-                            <li> <a class="CursurNotAllowd" href=javascript:void(0)>אימון הכלב לבית</a> </li>
+                            <li> <a class="CursurNotAllowd NavIcon" href=javascript:void(0)>אימון הכלב לבית</a> </li>
                         </ul>
                     </li>
                     <li><a class="CursurNotAllowd" href="javascript:void(0)"> שאלות ותשובות </a></li>
@@ -96,7 +96,7 @@
             <section class="row padding1">
                 <div class="col-xs-4 AdoptPics" id="AdoptPic1">
                     <div class="bubbles">
-                        <h2 id="h2bubbles">אימוץ כלב הביתה</h2>
+                        <h2 id="h2bubbles">אימוץ כלב <br /> הביתה</h2>
                     </div>
                 </div>
                 <p class="col-xs-8 " id="bottom">
@@ -111,8 +111,7 @@
                 <div class="col-xs-8">
                     <h3> הצלת חיים</h3>
                     <section>
-                        <h4> קנייה</h4>
-                        <p>קניתם ולא אימצתם? יכול להיות שעוד כלב 	הומת בהמתת חסד </p>
+                        <h4> קנייה</h4><p>קניתם ולא אימצתם? יכול להיות שעוד כלב 	הומת בהמתת חסד </p>
                     </section>
                     <section>
                         <h4> אימוץ</h4><p> כשמחליטים לאמץ, מצילים את חיי הכלב 	מהמתה </p>
