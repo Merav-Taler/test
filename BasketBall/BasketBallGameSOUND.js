@@ -1801,6 +1801,7 @@ p.nominalBounds = new cjs.Rectangle(-120,-110,240,220);
 			createjs.Sound.registerSound("/sounds/failSound.mp3", "FAIL");
 			createjs.Sound.registerSound("/sounds/successSound.mp3", "SUCCESS");
 			// play sound and start timeline playing  
+			handleLoad(event);
 			home.play();
 		
 		
@@ -2397,7 +2398,7 @@ p.nominalBounds = new cjs.Rectangle(-120,-110,240,220);
 				var questionScore = pointsPerQuestion / lastQuestion.trials;
 				playerScore = playerScore + questionScore;
 				rightAnswerAnimation(chosenAnswer); // הפנייה לפונקציה המציגה אנימציית קליעה לסל
-		handleLoad(event);
+				handleLoad(event);
 		
 			} else { // במידה והשחקן ענה שאלה באופן שגוי
 				counerWrongAnswers++; // העלאה של תשובות לא נכונות שענה השחקן
@@ -2456,9 +2457,6 @@ p.nominalBounds = new cjs.Rectangle(-120,-110,240,220);
 				isSound = true;
 		
 			}
-		}
-		function handleLoad(event) {
-			home.audio1 = createjs.Sound.play("soundID");
 		}
 		
 		function handleLoad(event) {
@@ -2734,12 +2732,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/BasketBallGameSOUND_atlas_.png?1518180317358", id:"BasketBallGameSOUND_atlas_"},
-		{src:"sounds/failSound.mp3?1518180317628", id:"failSound"},
-		{src:"sounds/successSound.mp3?1518180317628", id:"successSound"},
-		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1518180317628", id:"lib/jquery-2.2.4.min.js"},
-		{src:"components/sdk/anwidget.js?1518180317628", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1518180317628", id:"an.ComboBox"}
+		{src:"images/BasketBallGameSOUND_atlas_.png?1518181066344", id:"BasketBallGameSOUND_atlas_"},
+		{src:"sounds/failSound.mp3?1518181066590", id:"failSound"},
+		{src:"sounds/successSound.mp3?1518181066590", id:"successSound"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1518181066590", id:"lib/jquery-2.2.4.min.js"},
+		{src:"components/sdk/anwidget.js?1518181066590", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1518181066590", id:"an.ComboBox"}
 	],
 	preloads: []
 };
