@@ -1798,8 +1798,8 @@ p.nominalBounds = new cjs.Rectangle(-120,-110,240,220);
 			// assign load event handler  
 			createjs.Sound.on("fileload", handleLoad);
 			// load and register sound  
-			createjs.Sound.registerSound("https://github.com/Merav-Taler/test/blob/master/BasketBall/sounds/failSound.mp3","FAIL");
-			createjs.Sound.registerSound("https://github.com/Merav-Taler/test/blob/master/BasketBall/sounds/successSound.mp3", "SUCCESS");
+			createjs.Sound.registerSound("https://merav-taler.github.io/test/BasketBall/sounds/failSound.mp3?1518181066590","FAIL");
+			createjs.Sound.registerSound("https://merav-taler.github.io/test/BasketBall/sounds/successSound.mp3?1518181066590", "SUCCESS");
 			// play sound and start timeline playing  
 			handleLoad(event);
 			home.play();
@@ -2732,12 +2732,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/BasketBallGameSOUND_atlas_.png?1518181598907", id:"BasketBallGameSOUND_atlas_"},
-		{src:"sounds/failSound.mp3?1518181599154", id:"failSound"},
-		{src:"sounds/successSound.mp3?1518181599154", id:"successSound"},
-		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1518181599154", id:"lib/jquery-2.2.4.min.js"},
-		{src:"components/sdk/anwidget.js?1518181599154", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1518181599154", id:"an.ComboBox"}
+		{src:"images/BasketBallGameSOUND_atlas_.png?1518182272125", id:"BasketBallGameSOUND_atlas_"},
+		{src:"sounds/failSound.mp3?1518182272386", id:"failSound"},
+		{src:"sounds/successSound.mp3?1518182272386", id:"successSound"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1518182272386", id:"lib/jquery-2.2.4.min.js"},
+		{src:"components/sdk/anwidget.js?1518182272386", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1518182272386", id:"an.ComboBox"}
 	],
 	preloads: []
 };
